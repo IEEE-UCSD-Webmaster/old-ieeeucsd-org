@@ -1,27 +1,3 @@
-# IEEE @ UCSD Website
+# IEEE @ UCSD Old Website
 
-## Deployment
-
-Github Actions have been set to trigger on each push onto the `main` branch. The website will be built as static pages to the `page` branch where it will be deployed onto [ieeeucsd.org](https://ieeeucsd.org).
-
-## Contributing
-
-Please create a new branch for development (i.e. `[NAME]-dev`). Pushing directly to main is not advised, as changes will go straight into production.
-
-### Testing
-
-To build the site, run `npm run build`.
-
-To view the site on your local network, run `npm run serve`. View the site at [localhost:9000](http://localhost:9000).
-
-### Images
-
-Large images should be in WebP format. Consider resizing images based on their usage.
-
-[Squoosh](https://squoosh.app/) is a great online tool for optimizing images developed by Google Chrome Labs.
-
-### Formatting
-
-Install [prettier](https://prettier.io/) and use it as the default Typescript and Javascript formatter. The `.prettierrc` configuration file controls the formatting rules.
-
-For CSS, use `CSS Language Features` as the default formatter. For HTML, use `HTML Language Features` as the default formatter.
+This is a mirrored repo. To view the current branch, either visit the [main](https://github.com/IEEE-UCSD-Webmaster/old-ieeeucsd-org/tree/main) branch on github or go to our [git instance](https://git.ieeeucsd.org/Webmaster/old-ieeeucsd-org).
